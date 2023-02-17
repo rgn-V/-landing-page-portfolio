@@ -10,9 +10,6 @@
 /************Header Styles********/
 @import url(header.css);
 
-/**********Main Styles**********/
-@import url(main.css);
-
 /********Footer Styles**********/
 @import url(footer.css);
 
@@ -46,12 +43,12 @@ body {
 
 .page {
     flex: 1 1 auto;
-    padding-top: 85;
+    padding-top: 85px;
 }
 
-@media (max-width:500px) {
+@media (max-width:350px) {
     .page {
-        padding-top: 70px;
+        padding-top: 73px;
     }
 }
 
@@ -69,3 +66,131 @@ body {
 /***************************************/
 
 /***************************************/
+
+
+.main {
+    padding-top: 93px;
+    padding-bottom: 98px;
+    border-bottom: solid 1px var(--color-secondary-white);
+}
+
+.main__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.main__content {
+    flex: 1 1 auto;
+    padding-right: 20px;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    color: var(--color-main-white);
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+
+.main__title span {
+    color: var(--color-mint);
+}
+
+.main__btns {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.main__cv_btn span {
+    display: inline-block;
+    padding-right: 32px;
+    background: url(../imgs/download.svg) no-repeat right;
+}
+
+.main__image {
+    flex: 1 1 42.8%;
+    text-align: center;
+}
+
+.main__image img {
+    max-width: 100%;
+}
+
+@media (max-width: 1280px) {
+    .main {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .main__container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .main__content {
+        padding-right: 0px;
+    }
+
+    .main__image {
+        flex: 0 0 auto;
+    }
+
+    .main__title {
+        text-align: center;
+    }
+
+    .main__btns {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__title {
+        font-size: 65px;
+        margin-bottom: 25px;
+    }
+
+    .main {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 479px) {
+    .main__title {
+        font-size: 45px;
+    }
+
+    .main__btns {
+        gap: 10px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 350px) {
+    .main {
+        padding-top: 75px;
+    }
+}
+
+/*****ABOUT*******/
+
+.about {
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+
+.about__container {
+    display: flex;
+
+}
+
+.about__title {
+    margin-bottom: 20px;
+}
