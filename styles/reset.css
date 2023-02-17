@@ -9,16 +9,9 @@
 *::before,
 *::after {
     box-sizing: border-box;
-}
-
-:focus,
-:active {
-    /*outline: none;*/
-}
-
-a:focus,
-a:active {
-    /* outline: none;*/
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /* Links */
@@ -26,9 +19,8 @@ a:active {
 a,
 a:link,
 a:visited {
-    /* color: inherit; */
+    color: inherit;
     text-decoration: none;
-    /* display: inline-block; */
 }
 
 a:hover {
@@ -59,7 +51,8 @@ p {
 }
 
 ul,
-ul li {
+li,
+ol {
     list-style: none;
 }
 
@@ -86,7 +79,7 @@ select {
     font-family: inherit;
     font-size: inherit;
     color: inherit;
-    background-color: transparent;
+    font-weight: inherit;
 }
 
 input::-ms-clear {

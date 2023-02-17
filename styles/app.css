@@ -1,28 +1,37 @@
-@import url(./reset.css);
+@import url(reset.css);
 
-:root {
-    --main-bg: #222831;
-    --color-main-white: #EEEEEE;
-    --color-mint: #00ADB5;
-    --color-secondary-white: rgba(238, 238, 238, 0.75);
-}
+/************root*************/
+
+@import url(root.css);
+/*********************************/
 
 /************Header Styles*************/
-@import url(./header.css);
+
+@import url(header.css);
+
 /***************************************/
+
+/***************************************/
+
+html {
+    height: 100%;
+    width: 100%;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--main-bg);
     color: var(--color-secondary-white);
     font-size: 18px;
+    height: 100%;
+    width: 100%;
 }
 
 /***************************************/
 
 .wrapper {
-    overflow: clip;
     min-height: 100%;
+    overflow: clip;
 
     display: flex;
     flex-direction: column;
@@ -36,7 +45,7 @@ body {
 
 /***************************************/
 
-[class*='__container'] {
+[class*="__container"] {
     max-width: 1280px;
     padding-left: 15px;
     padding-right: 15px;
