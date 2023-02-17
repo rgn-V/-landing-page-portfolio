@@ -1,0 +1,45 @@
+@import url(root.css);
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(34, 40, 49, 0.1);
+    z-index: 50;
+    border-top: 1px solid rgba(238, 238, 238, 0.1);
+}
+
+.footer__menu {
+    margin-bottom: 28px;
+}
+
+.menu-footer__list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 48px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-main-white);
+}
+
+.menu-footer__link {
+    padding-left: 34px;
+}
+
+.menu-footer__link:hover {
+    text-underline-offset: 3px;
+    text-decoration: underline;
+}
+
+.menu-footer__link_home {
+    background: url(../imgs/home.svg) left no-repeat;
+}
+
+.menu-footer__link_about {
+    background: url(../imgs/user.svg) left no-repeat;
+}
+
+.menu-footer__link_contact {
+    background: url(../imgs/phone.svg) left no-repeat;
+}

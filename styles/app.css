@@ -1,17 +1,22 @@
+/************RESET*************/
 @import url(reset.css);
 
-/************root*************/
+/************COMMON*************/
+@import url(common.css);
 
+/************Root*************/
 @import url(root.css);
-/*********************************/
 
-/************Header Styles*************/
-
+/************Header Styles********/
 @import url(header.css);
 
-/***************************************/
+/**********Main Styles**********/
+@import url(main.css);
 
-/***************************************/
+/********Footer Styles**********/
+@import url(footer.css);
+
+/*******************************/
 
 html {
     height: 100%;
@@ -41,6 +46,13 @@ body {
 
 .page {
     flex: 1 1 auto;
+    padding-top: 85;
+}
+
+@media (max-width:500px) {
+    .page {
+        padding-top: 70px;
+    }
 }
 
 /***************************************/
