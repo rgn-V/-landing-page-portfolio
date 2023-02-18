@@ -59,3 +59,15 @@
 .title span {
     color: var(--color-mint);
 }
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 45px;
+    }
+}
