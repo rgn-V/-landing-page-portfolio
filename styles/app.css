@@ -255,7 +255,12 @@ body {
     padding-bottom: 145px;
     background-image: url(../imgs/bg.svg);
 }
-
+.works__title {
+    margin-bottom: 20px;
+}
 .items-works__navigation {
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px;
+    margin-bottom: 48px;
 }
