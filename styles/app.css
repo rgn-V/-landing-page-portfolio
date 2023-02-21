@@ -266,30 +266,25 @@ body {
 }
 
 .items-works__body {
-    display: grid;
+    display: flex;
     gap: 45px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .items-works__item {
     background: var(--dark-bg-opasity);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
     border-radius: 16px;
     padding: 45px;
 }
 
-.items-works__image {
-    position:relative;
-    padding-bottom:  59%;
+/*****Contact*****/
+
+.contact__content {
+    width: 40%;
 }
 
- .items-works__image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}  
+
 
 
