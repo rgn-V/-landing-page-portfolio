@@ -281,8 +281,18 @@ body {
 
 /*****Contact*****/
 
+.contact__container {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact__content {
     width: 40%;
+}
+
+.contact_form_group {
+    display: flex;
+    flex-direction: row;
 }
 
 

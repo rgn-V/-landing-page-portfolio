@@ -71,3 +71,12 @@
         font-size: 45px;
     }
 }
+
+.input_ {
+    display: flex;
+    flex-direction: column;
+}
+
+._input {
+    background-color: var(--color-social-icon);
+}
