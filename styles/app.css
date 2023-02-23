@@ -284,15 +284,38 @@ body {
 .contact__container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact__content {
     width: 40%;
 }
 
+.contact__image {
+    display: flex;
+    justify-content: center;
+}
+
 .contact_form_group {
     display: flex;
     flex-direction: row;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.contact_form {
+    width: 50%;
+}
+
+.contact_form_group:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input_message {
+    width: auto;
 }
 
 
