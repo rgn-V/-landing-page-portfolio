@@ -302,6 +302,7 @@ body {
     flex-direction: row;
     gap: 24px;
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .contact_form {
@@ -315,7 +316,11 @@ body {
 }
 
 .input_message {
-    width: auto;
+    height: 280px;
+}
+
+.form_group_item {
+    width: 48%;
 }
 
 
