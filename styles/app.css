@@ -72,7 +72,6 @@ body {
 .main {
     padding-top: 93px;
     padding-bottom: 98px;
-    border-bottom: solid 1px var(--color-secondary-white);
 }
 
 .main__container {
