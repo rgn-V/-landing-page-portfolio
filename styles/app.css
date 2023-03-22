@@ -281,6 +281,14 @@ body {
     padding: 45px;
 }
 
+.button_active {
+    background-color: var(--color-social-icon);
+}
+
+.button_active:hover {
+    background-color: var(--color-mint);
+}
+
 /*****Contact*****/
 
 .page__contact {
